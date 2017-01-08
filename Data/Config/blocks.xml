@@ -3547,6 +3547,7 @@ group desc for stuff like metal siding
     <property name="Group" value="Tools/Traps"/>
     <property name="EconomicValue" value="10"/>
     <property name="EconomicBundleSize" value="50"/>
+    <property name="CraftingSkillGroup" value="Traps"/>
   </block>
   <block id="409" name="trapSpikesDamage1">
     <property name="Extends" value="trapSpikesNew"/>
@@ -4911,6 +4912,7 @@ kind of free
 	<property name="Mesh" value="models" />
 	<property name="Model" value="LootContainers/munitions_box01" param1="main_mesh" />
 	<property name="Place" value="TowardsPlacer" />
+	<property class="RepairItems"> <property name="forgedIron" value="5" /> </property>
 	<property name="LootList" value="40" />
 	<drop event="Harvest" name="forgedIron" count="2" prob="1" />
 	<drop event="Harvest" name="forgedSteel" count="2" prob="0.5" />
@@ -14823,6 +14825,9 @@ kind of free
 			<property name="Modules" value="tools,output,input"/>
 			<property name="CraftingAreaRecipes" value="campfire" />
 		</property>
+		<property class="RepairItems">
+			<property name="scrapIron" value="10" />
+		</property>
 		<property name="CraftingSkillGroup" value="Mechanical"/>
 	</block>
 	<block id="1971" name="workingGranitSink">
@@ -14839,6 +14844,9 @@ kind of free
 	<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble" />
 	<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
 	<property name="CraftingSkillGroup" value="Mechanical"/>
 	</block>
 	<block id="1972" name="workingCabinetSink">
