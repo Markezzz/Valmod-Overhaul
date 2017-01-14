@@ -47,7 +47,7 @@
         <hold_type id="44" newmodel="false" ray_cast="0" holster="0" unholster="0.2" two_handed="true" />          <!-- magnum -->
         <hold_type id="45" newmodel="false" ray_cast="0" holster="0" unholster="0.2" />          <!-- sack -->
         <hold_type id="46" newmodel="false" ray_cast="0.5" holster="0" unholster="0.2" />         <!-- bear hand -->
-		<hold_type id="47" newmodel="false" ray_cast="0.1" holster="0" unholster="0.2" two_handed="true" />       <!-- machete -->
+		<hold_type id="47" newmodel="false" ray_cast="0.1" holster="0" unholster="0.2" />       <!-- machete -->
 		<hold_type id="48" newmodel="false" ray_cast="0" holster="0" unholster="0.2" two_handed="true" />         <!-- ak47 -->
 		<hold_type id="49" newmodel="false" ray_cast="1.00" holster="0" unholster="0.2" />        <!-- candle -->
 		<hold_type id="50" newmodel="false" ray_cast="0.31" holster="0" unholster="0.2" two_handed="true" />        <!-- 50 hoe -->
